@@ -15,7 +15,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/SampleScript.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+              <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding>
                 <marker date="1510035733861" expanded="true" signature="6:91" ph="..." />
                 <marker date="1510035733861" expanded="true" signature="134:534" ph="{...}" />
@@ -169,12 +169,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510025984081</updated>
-      <workItem from="1510025986333" duration="5975000" />
+      <workItem from="1510025986333" duration="6033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5975000" />
+    <option name="totallyTimeSpent" value="6033000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -261,7 +261,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/SampleScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
             <marker date="1510035733861" expanded="true" signature="6:91" ph="..." />
             <marker date="1510035733861" expanded="true" signature="134:534" ph="{...}" />
