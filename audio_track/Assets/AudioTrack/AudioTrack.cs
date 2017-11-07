@@ -34,7 +34,15 @@ namespace Audio
 
         private string FFmpegPath
         {
-            get { return Path.Combine(Application.streamingAssetsPath, "ffmpeg"); }
+            get {
+#if UNITY_STANDALONE_WIN
+                return Path.Combine(Application.streamingAssetsPath, "ffmpeg.exe");
+#elif UNITY_STANDALONE_OSX
+                return Path.Combine(Application.streamingAssetsPath, "ffmpeg");
+#else
+                return "";
+#endif
+            }
         }
 
         private AudioTrack()
