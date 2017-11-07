@@ -106,7 +106,10 @@ namespace Audio
                     tracks.Add(track);
                 }
             }
-            return tracks.ToArray();
+            AudioTrackInfo[] result = tracks.ToArray();
+            // Add cache.
+            _cache.Add(file, result);
+            return result;
         }
 
         private void ProcessFFmpegOutput(object sender, DataReceivedEventArgs e)
